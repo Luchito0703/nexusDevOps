@@ -2,7 +2,7 @@ name: Build and Publish python Package to Nexus
 on:
     push:
         branches:
-            - Nexus
+            - main
 
 jobs:
     deploy:
